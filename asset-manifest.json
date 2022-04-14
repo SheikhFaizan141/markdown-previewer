@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/SheikhFaizan141/markdown-previewer/static/css/main.6d754924.css",
-    "main.js": "/SheikhFaizan141/markdown-previewer/static/js/main.95d959d1.js",
-    "static/js/787.e9480b1f.chunk.js": "/SheikhFaizan141/markdown-previewer/static/js/787.e9480b1f.chunk.js",
-    "index.html": "/SheikhFaizan141/markdown-previewer/index.html",
-    "main.6d754924.css.map": "/SheikhFaizan141/markdown-previewer/static/css/main.6d754924.css.map",
-    "main.95d959d1.js.map": "/SheikhFaizan141/markdown-previewer/static/js/main.95d959d1.js.map",
-    "787.e9480b1f.chunk.js.map": "/SheikhFaizan141/markdown-previewer/static/js/787.e9480b1f.chunk.js.map"
+    "main.css": "/markdown-previewer/static/css/main.6d754924.css",
+    "main.js": "/markdown-previewer/static/js/main.e3a4dc69.js",
+    "static/js/787.e9480b1f.chunk.js": "/markdown-previewer/static/js/787.e9480b1f.chunk.js",
+    "index.html": "/markdown-previewer/index.html",
+    "main.6d754924.css.map": "/markdown-previewer/static/css/main.6d754924.css.map",
+    "main.e3a4dc69.js.map": "/markdown-previewer/static/js/main.e3a4dc69.js.map",
+    "787.e9480b1f.chunk.js.map": "/markdown-previewer/static/js/787.e9480b1f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d754924.css",
-    "static/js/main.95d959d1.js"
+    "static/js/main.e3a4dc69.js"
   ]
 }
