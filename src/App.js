@@ -1,24 +1,23 @@
 import React from 'react';
 import { marked } from 'marked';
-import './App.css';
-import Prism from 'prismjs';
 import './Prism.css'
+import Prism from 'prismjs';
+import './App.css';
+
+
 
 marked.setOptions({
   breaks: true,
   gfm: true,
   highlight: function (code) {
-    console.log(code)
     return Prism.highlight(code, Prism.languages.javascript, 'javascript');
   }
 });
 
 const ToolBar = (props) => {
-  // console.log(props)
   return (
     <header
       className='toolbar'
-    // onClick={this.}
     >
       {props.heading}
       <i
@@ -51,12 +50,10 @@ class App extends React.Component {
 
   handleEditorMaximized() {
     this.setState({ editorMaximized: !this.state.editorMaximized })
-    console.log(this.state.editorMaximized)
   }
 
   handlePreviewMaximized() {
     this.setState({ previewMaximized: !this.state.previewMaximized })
-    // console.log(this.state.previewMaximized)
   }
 
   render() {
@@ -65,7 +62,6 @@ class App extends React.Component {
       : this.state.previewMaximized
         ? ['editorWrap hide', 'previewWrap maximized', 'fa fa-compress']
         : ['editorWrap', 'previewWrap', 'fa fa-maximize'];
-    console.log(classes)
 
     return (
       <div id='wrapper'>
